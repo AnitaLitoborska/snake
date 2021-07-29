@@ -1,0 +1,21 @@
+.board {
+    margin: auto;
+    background: rgb(201, 155, 155);
+    overflow: hidden;
+    outline: none;
+    border: 2px solid black;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.body-cell{
+    background: rgb(255, 0, 191);
+}
+.food-cell {
+    background: brown;
+}
